@@ -1,0 +1,56 @@
+/* ProfilePage.css */
+
+.profile-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-header {
+    position: relative;
+  }
+  
+  .profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: url('./portfolio/HarshPic.jpg'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto 15px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin: 10px 0 5px;
+  }
+  
+  .profile-description {
+    margin-bottom: 20px;
+  }
+  
+  .social-links {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social-btn {
+    background-color: #0077b5; /* LinkedIn blue color */
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .social-btn:hover {
+    background-color: #005885; /* Darker shade on hover */
+  }
+  
